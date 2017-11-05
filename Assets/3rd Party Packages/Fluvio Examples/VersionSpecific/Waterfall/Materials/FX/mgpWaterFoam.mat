@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mgpWaterFoam
+  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 2ac618924408d44c485d1a9947ecb4ed, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: dca40bebe4cdd443ea7f19fdc741e519, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrabTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 85516ace02578428e8645e65c2525a65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShimmerDistort:
+        m_Texture: {fileID: 2800000, guid: 22f75863bad71466999542bb7d5618cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 2.4
+    - _BaseLight: 0.35
+    - _BumpAmt: 15.283584
+    - _Cutoff: 0.5535714
+    - _Distort: 0.5
+    - _Intensity: 2.2
+    - _InvFade: 2.32
+    - _Occlusion: 7.5
+    - _Power: 1.3392857
+    - _ReflToRefr: 0.7835821
+    - _ShadowStrength: 1
+    - _Shininess: 0.7
+    - _SquashAmount: 1
+    - _TranslucencyViewDependency: 0.7
+    - _WaveStrength: 0.25
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DistortOffset: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _EmisColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0}
+    - _Emission: {r: 0.3208955, g: 0.3208955, b: 0.3208955, a: 0}
+    - _Emissive: {r: 0.167632, g: 0.5423171, b: 0.64179105, a: 0.3882353}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 0}
+    - _TintColor: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 0.1254902}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _WaveMod: {r: 10, g: 30, b: 0.01, a: 0.01}
+    - _WaveSpeed: {r: 2, g: 1, b: 0, a: 0}
